@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+#Calculator{
+    margin: 150px auto;
+    width: 500px;
+    background-color: rgb(59, 163, 154);
+    height: 300px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #9b8b8b;
+
+}
+button{
+    margin: 10px;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #cc3434;
+}
+#clear {
+    background-color: #ffcccc;
+    color: #cc0000;
+}
+
+#equals {
+    background-color: #c5e996;
+    color: green;
+}
